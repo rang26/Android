@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/text01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="i am song…!!!"
+        ></TextView>
+
+    <ImageView
+        android:id="@+id/iv01"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:srcCompat="@android:drawable/ic_menu_always_landscape_portrait" />
+
+    <Button
+        android:id="@+id/btnChange"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="이미지변환">
+
+
+    </Button>
+
+</LinearLayout>
